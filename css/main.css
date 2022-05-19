@@ -1,0 +1,65 @@
+body {
+    align-items: center;
+    width: 900px;
+}
+
+
+#header {
+    background-color: whitesmoke;
+}
+
+#header_img {
+    width: 900px;
+}
+
+#header,
+#header_right,
+#header_left,
+#namefield,
+#inoutfield {
+    display: flex;
+}
+
+#namefield div,
+#inoutfield div {
+    margin-left: 20px;
+}
+
+#header_right,
+#header_left {
+    margin: 20px;
+}
+
+#header_right p,
+#header_left p {
+    margin: 5px;
+}
+
+#header_left {
+    text-align: left;
+}
+
+#header_right {
+    text-align: right;
+}
+
+#header_right p {
+    margin-left: 50px;
+}
+
+#boarder {
+    border-radius: 20px;
+}
+
+#header2 {
+    text-align: center;
+}
+
+#form {
+    width: 900px;
+    font-size: 20px;
+}
+
+.input {
+    border-radius: 10px;
+}
